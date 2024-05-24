@@ -1,0 +1,8 @@
+Diagrama de páginas do menu
+
+menu (0) --> ensaio (1) --  --  --  --  --  --  --> manual(4) --    --  --  --  --> iniciar (6*)
+        \--> configurações (2)                 \--> automático (5*)            \--> vref (7*)
+        \--> créditos (3)
+
+
+*: marcador de páginas especiais.

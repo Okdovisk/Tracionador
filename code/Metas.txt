@@ -1,0 +1,22 @@
+30/09/2023
+A meta atual do TCC é fazer algumas alterações na parte de interface com o usuário:
+--> O display deve apresentar uma página de operação manual, na qual será definida a velocidade de referência e o sentido de giro.
+--> A velocidade de referência será configurada a partir dos botões: previous (diminui 10 mm/s) e next (soma 10 mm/s).
+--> Um botão (confirm) configura o play/pause do ensaio
+--> O sentido de giro será configurado a partir de dois botões: previous (sentido anti-horário) e next (sentido horário).
+* O potenciômetro talvez não será mais usado
+
+Próximos passos = {
+    "resetar o estado de rastreamento quando se retorna da página de ensaio no estado rastreando. O estado 'rastreando' permanece ativo ao retornar da página de início de ensaio, o que pode gerar problemas ao acessar novamente a página de início de ensaio, pois o rastreamento começará subitamente.",
+    "atualizar as imagens dos menus criados e editados",
+    "fazer testes práticos no laboratório",
+    "atualizar, em alguma parte do código, o resete da página de início de rastremaneto para que a mensagem 'PARADOANDO'(?!) não seja exibida"
+}
+
+01/10/2023
+Além dos próximos passos anteriores, vou impedir que o operador altere o sentido de giro durante o estado "RASTREANDO", pois alterações nesse instante podem gerar movimentos muito bruscos no motor.
+
+Próximos passos = {
+    "fazer testes práticos no laboratório",
+    "soldar os resistores que estão sendo possíveis fontes de mal contato"
+}
